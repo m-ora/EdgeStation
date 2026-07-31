@@ -1,3 +1,7 @@
+# lil blurb
+
+I really wanted something to goon with on any videos, and I hate the vibemate app / extension it sucks and the browser was better so I just asked claude to do this shit for me.
+
 # EdgeStation (COMPLETELY VIDECODED)
 
 A browser extension that watches videos and images on the current page and
