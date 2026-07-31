@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "EdgeStation",
+  "version": "1.3.0",
+  "description": "Syncs Intiface/Buttplug-connected toys to on-screen motion and per-image pixel statistics, with per-toy patterns, a timed edging session, and a learning ease-off.",
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "EdgeStation"
+  }
+}
