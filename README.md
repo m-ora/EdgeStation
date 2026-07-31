@@ -1,4 +1,4 @@
-# EdgeStation
+# EdgeStation (COMPLETELY VIDECODED)
 
 A browser extension that watches videos and images on the current page and
 drives Lovense toy(s) (via Intiface Central / Buttplug protocol v3) based on
